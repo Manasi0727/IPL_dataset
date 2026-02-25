@@ -1,110 +1,106 @@
-# IPL Data Analysis using Python
+# 🏏 IPL Data Analysis & Match Outcome Prediction (ML Project)
 
-## Overview
-This project focuses on analyzing IPL (Indian Premier League) cricket data to extract meaningful insights using data analysis and visualization techniques. The objective is to explore team performance, player statistics, match outcomes, and trends using Python and data science libraries.
-
-This project demonstrates practical skills in data cleaning, exploratory data analysis (EDA), and visualization, which are essential for Data Scientist and AI roles.
+A complete data science project that analyzes IPL historical match data and builds machine learning models to predict match-related outcomes using structured datasets. The project focuses on exploratory data analysis (EDA), feature engineering, model training, and performance benchmarking using ensemble learning techniques.
 
 ---
 
-## Objectives
-- Perform data cleaning and preprocessing on IPL datasets  
-- Analyze team and player performance  
-- Identify trends and patterns in match results  
-- Visualize insights using graphs and charts  
-- Extract actionable insights from structured data  
+## 🚀 Project Objective
+
+- Analyze IPL match data and uncover performance patterns  
+- Build regression-based ML models for prediction  
+- Evaluate models on training and test data  
+- Select the best-performing model based on accuracy  
 
 ---
 
-## Technologies Used
+## 🧠 Models Used
+
+| Model         | Description                     |
+|---------------|----------------------------------|
+| Random Forest | Ensemble tree-based regressor    |
+| XGBoost       | Gradient boosting regressor      |
+
+---
+
+## 📊 Model Accuracy (R² Score Only)
+
+### 🔹 Random Forest Regressor
+
+| Dataset | Accuracy (R²) |
+|--------|----------------|
+| Train  | **99.33%**     |
+| Test   | **95.00%**     |
+
+### 🔹 XGBoost Regressor
+
+| Dataset | Accuracy (R²) |
+|--------|----------------|
+| Train  | **90.07%**     |
+| Test   | **87.53%**     |
+
+---
+
+## 🏆 Final Model Selection
+
+**Best Model: Random Forest Regressor**
+
+**Reason:**
+- Higher training accuracy  
+- Higher testing accuracy  
+- Better generalization  
+- Lower error on unseen data  
+
+Random Forest is selected as the final production model for this dataset.
+
+---
+
+## 🔎 Key Insights
+
+- Random Forest generalizes better than XGBoost for this dataset  
+- The train-test accuracy gap is within acceptable limits  
+- Feature engineering significantly improved model performance  
+- Ensemble methods outperform simpler baseline models  
+
+---
+
+## ⚙️ How to Run
+
+### Step 1: Install Dependencies
+```bash
+pip install pandas numpy scikit-learn xgboost matplotlib seaborn
+Step 2: Run Notebook
+
+jupyter notebook ipl_data_analysis.ipynb
+
+## 🧩 Tech Stack
+
 - Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
+- Pandas, NumPy  
+- Scikit-learn  
+- XGBoost  
+- Matplotlib, Seaborn  
 - Jupyter Notebook  
 
 ---
 
-## Key Features
-- Data Cleaning and Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- Team performance analysis  
-- Player performance analysis  
-- Match outcome analysis  
-- Data visualization using plots and charts  
+## 📌 Future Enhancements
+
+- Hyperparameter tuning with Optuna  
+- Add SHAP-based model explainability  
+- Build Streamlit web app for live predictions  
+- Deploy model using REST API  
+- Add season-wise trend analysis  
 
 ---
 
-## Project Structure
+## 👩‍💻 Author
 
-ipl-data-analysis/
-│
-├── ipl_data_analysis.ipynb    # Main analysis notebook
-├── dataset.csv                # IPL dataset
-├── README.md                  # Project documentation
-
+** Manasi Dalavi **  
+Machine Learning & Data Science  
 
 ---
 
-## Sample Analysis Performed
-- Most successful teams in IPL history  
-- Player with highest runs and best performance  
-- Win distribution across teams  
-- Toss impact on match results  
-- Season-wise performance trends  
+## 📜 License
 
----
-
-## Skills Demonstrated
-- Data Analysis  
-- Data Cleaning  
-- Data Visualization  
-- Python Programming  
-- Exploratory Data Analysis  
-- Analytical Thinking  
-
----
-
-## How to Run the Project
-
-1. Clone the repository
-
-git clone https://github.com/yourusername/ipl-data-analysis.git
-
-
-2. Navigate to the project folder
-
-cd ipl-data-analysis
-
-
-3. Open Jupyter Notebook
-
-jupyter notebook
-
-
-4. Run the notebook:
-
-ipl_data_analysis.ipynb
-
-
----
-
-## Results
-This project provides insights into IPL team performance, player statistics, and match trends using data-driven analysis.
-
----
-
-## Future Improvements
-- Build predictive models for match outcome prediction  
-- Create interactive dashboards using Power BI or Streamlit  
-- Apply machine learning techniques  
-
----
-
-## Author
-**Manasi S. Dalavi**  
-Artificial Intelligence and Data Science Engineer  
-
-- LinkedIn: https://linkedin.com/in/yourprofile  
-- GitHub: https://github.com/yourusername  
+This project is for educational and research purposes.  
+You are free to fork and extend this work.
