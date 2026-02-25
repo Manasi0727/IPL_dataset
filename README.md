@@ -96,7 +96,7 @@ jupyter notebook ipl_data_analysis.ipynb
 
 ## 👩‍💻 Author
 
-** Manasi Dalavi **  
+**Manasi Dalavi**  
 Machine Learning & Data Science  
 
 ---
