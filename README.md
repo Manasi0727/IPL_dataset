@@ -68,7 +68,8 @@ Random Forest is selected as the final production model for this dataset.
 ### Step 1: Install Dependencies
 ```bash
 pip install pandas numpy scikit-learn xgboost matplotlib seaborn
-Step 2: Run Notebook
+```  
+### Step 2: Run Notebook
 
 jupyter notebook ipl_data_analysis.ipynb
 
